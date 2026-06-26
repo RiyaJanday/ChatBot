@@ -1,0 +1,37 @@
+# Secrets — never commit your API keys
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Temporary / cache files
+*.log
+*.tmp
+.cache/
+
+# FAISS index files (if you ever save indexes locally)
+*.faiss
+*.pkl
